@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5494" started-at="2017-11-26T09:47:43Z" finished-at="2017-11-26T09:47:49Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="5494" started-at="2017-11-26T09:47:43Z" finished-at="2017-11-26T09:47:49Z">
+      <class name="com.tanmaysarkar.demo.regression.Test_Sample_01">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.tanmaysarkar.demo.regression.Test_Sample_01@18be83e4]" name="setUp" is-config="true" duration-ms="3024" started-at="2017-11-26T22:47:43Z" finished-at="2017-11-26T22:47:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="newRegistration(com.tanmaysarkar.demo.data.RegistrationData)[pri:0, instance:com.tanmaysarkar.demo.regression.Test_Sample_01@18be83e4]" name="newRegistration" duration-ms="2270" started-at="2017-11-26T22:47:46Z" data-provider="regData" finished-at="2017-11-26T22:47:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.tanmaysarkar.demo.data.RegistrationData@71075444]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newRegistration -->
+        <test-method status="PASS" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:com.tanmaysarkar.demo.regression.Test_Sample_01@18be83e4]" name="closeBrowser" is-config="true" duration-ms="77" started-at="2017-11-26T22:47:49Z" finished-at="2017-11-26T22:47:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=newRegistration status=SUCCESS method=Test_Sample_01.newRegistration(com.tanmaysarkar.demo.data.RegistrationData)[pri:0, instance:com.tanmaysarkar.demo.regression.Test_Sample_01@18be83e4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.tanmaysarkar.demo.regression.Test_Sample_01@18be83e4]" name="quitBrowser" is-config="true" duration-ms="101" started-at="2017-11-26T22:47:49Z" finished-at="2017-11-26T22:47:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.tanmaysarkar.demo.regression.Test_Sample_01 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
